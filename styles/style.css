@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  background-color: #f1f1f3;
+  
+}
+
+/* Shared Item */
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navbar Styles */
+
+.nav-container {
+  height: 2%;
+  display: flex;
+  margin: 24px 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  font-weight: bold;
+}
+.btn-primary {
+  padding: 15px 30px;
+  color: rgba(0, 106, 80, 1);
+  background-color: #f1f1f3;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 106, 80, 1);
+  border-radius: 8px;
+}
+
+/* Banner Section */
+
+.banner-container > img {
+  margin: 24px 10%;
+  width: 80%;
+}
+
+/* Pillar Section */
+.pillar-section {
+  width: 80%;
+  margin: 24px 10%;
+}
+.pillar-title > h3 {
+  color: rgba(14, 14, 14, 1);
+
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.pillar-card {
+  display: flex;
+  box-sizing: border-box;
+
+  border-radius: 16px;
+}
+.card {
+  /* Frame 2087325495 */
+  width: 302px;
+  height: 180px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+}
+.card-in {
+  border: 2px solid slateblue;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+/* Vision Style */
+
+.vision-section {
+  width: 80%;
+  margin: 40px 10%;
+}
+.vision-description > p {
+  color: rgba(14, 14, 14, 0.7);
+
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.vision-card {
+  display: flex;
+  gap: 24px;
+}
+
+.vision-p {
+  color: rgba(14, 14, 14, 0.7);
+
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.vision-h {
+  color: rgba(14, 14, 14, 0.8);
+
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.vision-card-1,
+.vision-card-2,
+.vision-card-3 {
+  padding: 24px;
+}
+.vision-card-1 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
+.vision-card-2 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(198, 228, 214, 1);
+}
+.vision-card-3 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(247, 235, 207, 1);
+}
+
+/* Quote Section */
+.quote-img{
+    width: 80%;
+    margin: 24px 10%;
+}
