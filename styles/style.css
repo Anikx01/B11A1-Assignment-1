@@ -5,7 +5,6 @@
 html,
 body {
   background-color: #f1f1f3;
-  
 }
 
 /* Shared Item */
@@ -149,7 +148,50 @@ body {
 }
 
 /* Quote Section */
-.quote-img{
-    width: 80%;
-    margin: 24px 10%;
+.quote-img {
+  width: 80%;
+  margin: 24px 10%;
+}
+
+/* Table */
+
+.tbl {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 24px 10%;
+}
+
+.tbl td {
+  border: 1px solid rgba(14, 14, 14, 0.15); /* Table border color */
+  padding: 12px;
+}
+.bg-green {
+  box-sizing: border-box;
+  background: rgba(198, 228, 214, 1);
+  font-weight: bold;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between; /* puts text at left and right edges */
+  align-items: center;
+}
+
+tbody > tr > td > button {
+  width: 152px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12;
+  padding: 10px 14px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 1);
+  border-radius: 4px;
+  background: rgba(198, 228, 214, 1);
+}
+/* Recent News */
+.recent{
+  width: 80%;
+  margin: 24px 10%;
 }
