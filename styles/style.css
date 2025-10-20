@@ -186,7 +186,7 @@ tbody > tr > td > button {
   gap: 12;
   padding: 10px 14px;
   box-sizing: border-box;
-  border: 1px solid rgba(14, 14, 14, 1);
+  border: none;
   border-radius: 4px;
   background: rgba(198, 228, 214, 1);
 }
@@ -379,5 +379,5 @@ footer hr{
   
 }
 .footer-img>img{
-  margin-left: 5px;
+  margin-left: 15px;
 }
