@@ -191,7 +191,102 @@ tbody > tr > td > button {
   background: rgba(198, 228, 214, 1);
 }
 /* Recent News */
-.recent{
+.recent {
   width: 80%;
   margin: 24px 10%;
+}
+
+/* Donate */
+.donate {
+  width: 70%;
+  margin: 24px 15%;
+}
+.donate-description > h3 {
+  color: rgba(14, 14, 14, 1);
+
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.donate-description > p {
+  color: rgba(14, 14, 14, 0.7);
+
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.donate-card {
+  display: flex;
+  justify-content: space-between;
+}
+.donate-card-in {
+  width: 160px;
+  height: 90px;
+  margin-top: 20px;
+  border: 2px solid steelblue;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+}
+.donate-card-in > h3 {
+  padding: 30px 30px;
+  margin-left: 10px;
+  color: rgba(14, 14, 14, 0.8);
+
+  font-family: Fira Sans;
+
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.donate-input {
+  width: 100%;
+  margin-top: 30px;
+}
+.donate-input > input {
+  width: 99%;
+  height: 40px;
+  border: 1px solid white;
+}
+.donate-input > input::placeholder {
+  padding-left: 46%;
+}
+
+.div-donate-btn {
+  width: 100%;
+  margin-top: 20px;
+}
+.donate-btn {
+  /* Frame 2 */
+  width: 151px;
+  height: 56px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 48;
+  padding: 17px 34px 17px 34px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgba(0, 106, 80, 1);
+  margin-left: 42%;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
 }
